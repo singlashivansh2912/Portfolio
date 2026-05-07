@@ -1,5 +1,6 @@
 import { Heart } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
+import logoImg from '../../assets/Logo_P.png';
 
 const footerLinks = [
   { label: 'Work', href: '#work' },
@@ -36,7 +37,7 @@ export default function Footer() {
         {/* Brand Column */}
         <div className="footer-brand">
           <Link to="/" className="footer-logo-link">
-            <img src="/Logo_P.png" alt="Logo" className="footer-logo-img" />
+            <img src={logoImg} alt="Logo" className="footer-logo-img" />
           </Link>
           <p className="footer-tagline">Designing experiences that people remember.</p>
           <span className="footer-copy">© 2025 Shivansh Singla. All rights reserved.</span>

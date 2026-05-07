@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { tools } from '../../data/projects';
+import photoImg from '../../assets/Photo.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -97,7 +98,7 @@ export default function About() {
               <div className="about-photo-container">
                 <img
                   ref={photoRef}
-                  src="/Photo.png"
+                  src={photoImg}
                   alt="Shiva — Designer"
                   className="about-photo-img"
                 />

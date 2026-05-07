@@ -2,6 +2,7 @@ import { useEffect, useState, useRef } from 'react';
 import { useLocation, useNavigate, Link } from 'react-router-dom';
 import gsap from 'gsap';
 import { ArrowLeft } from 'lucide-react';
+import logoImg from '../../assets/Logo_P.png';
 
 const navLinks = [
   { label: 'Work', href: '#work' },
@@ -87,7 +88,7 @@ export default function Navbar() {
       ) : (
         <>
           <div className="nav-logo" onClick={(e) => { e.preventDefault(); if (window.__lenis) window.__lenis.scrollTo(0, { duration: 1.2 }); else window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
-            <img src="/Logo_P.png" alt="Logo" className="nav-logo-img" />
+            <img src={logoImg} alt="Logo" className="nav-logo-img" />
           </div>
           <div className="nav-links">
             {navLinks.map(link => (

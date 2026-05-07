@@ -1,3 +1,9 @@
+import erpWebImg from '../assets/ERP Web.png';
+import flowState1Img from '../assets/Flow State 1.png';
+import flowState2Img from '../assets/Flow State 2.png';
+import pharmaOneImg from '../assets/Pharma One.png';
+import spamItImg from '../assets/Spam it.png';
+
 export const projects = [
   {
     id: 'erp-portal',
@@ -5,8 +11,8 @@ export const projects = [
     tagline: 'Designing clarity in complex academic systems',
     category: 'Web App · Enterprise',
     year: '2025',
-    image: '/ERP Web.png',
-    detailImage: '/ERP Web.png',
+    image: erpWebImg,
+    detailImage: erpWebImg,
     description: 'Modern academic ERP dashboard focused on clarity, accessibility, and streamlined workflows.',
     color: '#f0abfc',
     liveDemo: 'https://erp-campusportal.web.app/',
@@ -36,8 +42,8 @@ export const projects = [
     tagline: 'Designing non-linear exploration in web-based gaming',
     category: 'Game · 3D Web',
     year: '2026',
-    image: '/Flow State 1.png',
-    detailImage: '/Flow State 2.png',
+    image: flowState1Img,
+    detailImage: flowState2Img,
     description: 'Non-linear 3D exploration puzzle game focused on immersive gameplay and environmental storytelling.',
     color: '#c9f31d',
     liveDemo: 'https://flow-state-v1.web.app/',
@@ -67,8 +73,8 @@ export const projects = [
     tagline: 'Building a reliable, data-driven inventory system',
     category: 'Desktop App · Healthcare',
     year: '2026',
-    image: '/Pharma One.png',
-    detailImage: '/Pharma One.png',
+    image: pharmaOneImg,
+    detailImage: pharmaOneImg,
     description: 'Data-driven pharmaceutical inventory system with analytics, stock monitoring, and expiry tracking.',
     color: '#6ee7b7',
     liveDemo: null,
@@ -98,8 +104,8 @@ export const projects = [
     tagline: 'Blending physical interaction with competitive gameplay',
     category: 'Hardware · Game',
     year: '2026',
-    image: '/Spam it.png',
-    detailImage: '/Spam it.png',
+    image: spamItImg,
+    detailImage: spamItImg,
     description: 'Arduino-powered real-time multiplayer LED racing game with tactile interaction.',
     color: '#818cf8',
     liveDemo: null,
