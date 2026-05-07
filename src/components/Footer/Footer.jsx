@@ -40,7 +40,7 @@ export default function Footer() {
             <img src={logoImg} alt="Logo" className="footer-logo-img" />
           </Link>
           <p className="footer-tagline">Designing experiences that people remember.</p>
-          <span className="footer-copy">© 2025 Shivansh Singla. All rights reserved.</span>
+          <span className="footer-copy">© 2026 Shivansh Singla. All rights reserved.</span>
         </div>
 
         {/* Quick Links */}
